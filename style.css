@@ -1,0 +1,477 @@
+/**** Strart overriding bootstrap ****/
+
+/* start main phone */
+.main_phone {
+    direction: rtl;
+    font-size: 20px;
+    background-color: #ecf0f3;
+    height: 60px;
+}
+
+.main_phone a {
+    padding-right: 10px;
+}
+/* end main phone */
+
+/** start header **/ 
+
+/* start Main Navbar */
+.navbar {
+    min-height: 70px;
+}
+/* end Main Navbar */
+
+/* strte navbar-brand */
+.navbar-light .navbar-brand {
+    color: #4b136b; 
+    font-size: 30px;
+    
+}
+/* end navbar-brand */
+
+/* start primary navbar */
+.nav-div {
+    direction: rtl;
+}
+
+.nav-list ul li {
+   padding-left: 15px;
+   padding-top: 5px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* end primary navbar */
+
+/* start dropdown-menu */
+.dropdown-menu {
+    background-color: #f6f7f8; 
+    min-width: 200px;
+}
+
+/* end dropdown-menu */
+
+/** end header **/
+
+
+/*** start index page ***/
+
+/** start main **/
+
+/* start presentation */
+.present {
+    background: linear-gradient(to left, #9c27b0, #90c4ee);
+    min-height: 350px;
+}
+
+
+.present h1 {
+    color: orange;
+    font-size: 43px;
+    padding-top: 10px;
+
+}
+
+.present h1 span {
+    color: #FFF;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.present .present-p-one {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.present .present-p-tow {
+    color: #FFF;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.present .present-p-three {
+    color: #FFF;
+    font-size: 40px;
+}
+
+.present .present-p-four {
+    color: #FFF;
+    font-size: 30px;
+}
+
+/* end presentation */
+
+/* start main service */
+.main_service_div {
+    direction: rtl;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 200px;
+    text-align: center;
+}
+/* end main service */
+
+
+/* start targets services  */
+.targets_service_content {
+    direction: rtl;
+    min-height: 310px;
+    margin: 10px;
+}
+
+.targets_service_content h2 {
+    font-size: 30px;
+    color: #672e87;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 51px;
+}
+.targets_service_content h3 {
+    margin: 30px;
+    text-align:right;
+    font-size: 26px;
+    color: #672e87;
+    line-height: 1;
+}
+
+.targets_service_content p {
+    margin: 30px;
+    text-align: right;
+    color: #bf1e80;
+    font-size: 19px;
+}
+
+/* end targets services  */
+
+/* start how it work */
+.how_it_work {
+    direction: rtl;
+    min-height: 330px;
+    margin-top: 30px;
+    background-color: #fbf6ff;
+}
+
+.how_it_work h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #672E87; 
+}
+
+.how_it_work .how_it_work_div {
+    text-align: center;
+    color: #672E87;
+    margin-top: 30px;
+}
+
+/* end how it work */
+
+/* start four service */
+.four_service { 
+    direction: rtl;
+    min-height: 300px;
+    background: linear-gradient(to top, #9c27b0, #90c4ee);
+    text-align: center;
+}
+
+.four_service img { 
+    width: 60px;
+    margin-top: 65px;
+}
+
+.four_service_color{ 
+    text-align: center;
+    color: #FFF;
+}
+/* end four service */
+
+/* start our service */
+.our_service {
+    direction: rtl;
+    min-height: 250px;
+    text-align: center;
+}
+
+.our_service h2 {
+    color: #672E87;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our_service div > div{
+    margin-top: 20px;
+}    
+/* end our service */
+
+/** start main **/
+
+/*** end index page ***/
+
+/*** start who are we page ***/
+
+/* start section */
+#who_are_we_section {
+    min-height: 1300px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #672e87;
+}
+
+.why_us {
+    direction: rtl;
+    text-align: right;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background:  #9c27b0;    
+}
+
+.why_us_color{
+    color: #FFF;
+}
+
+.our_vision {
+    direction: rtl;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 33px;
+    background: linear-gradient(130deg, rgba(104,46,134,1) 0%, rgba(192,30,127,1) 100%);
+}
+
+.our_vision_color{
+    color: #FFF;
+}
+
+.our_essential_values {
+    direction: rtl;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.our_essential_values h2 {
+    padding: 15px;
+    color: #9c27b0;
+}
+
+.our_essential_values p{
+    padding: 15px;
+    color: #b300d3;
+}
+
+/* end section */
+
+/*** end who are we page ***/
+
+/*** start services providers page ***/
+
+#services_providers_section {
+    direction: rtl;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 1200px;
+}
+
+
+.grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.doctor_img img {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+
+
+.doctor_icons {
+    text-align: center;
+}
+
+/*** end services providers page ***/
+
+
+/*** start services price page ***/
+
+/* start services price */
+.service_fee h1 {
+    direction: rtl;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #4e0c6d;
+}
+
+.house_treat_one {
+    direction: rtl;
+    text-align: center;
+    min-height: 350px;
+}
+
+.house_treat_one h2 {
+    color: rgb(75, 158, 158);
+    margin: 30px;
+}
+
+.house_treat_one .div_content_one {
+    background-color: #35004b;
+    color: #FFF;
+    min-height: 200px;
+}
+
+.house_treat_one .div_content_one p {
+    background-color: rgba(88,8,110,1);
+    padding: 15px;
+    font-size: 20px
+}
+
+.house_treat_one .div_content_one span {
+    font-size: 35px;
+    padding: 20px;
+}
+
+.house_treat_tow {
+    direction: rtl;
+    min-height: 535px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.house_treat_tow h2{
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(75, 158, 158);
+}
+
+.house_treat_tow .div_content_tow {
+    background-color: #85005d;
+    color: #FFF;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.house_treat_tow .div_content_tow p {
+    background-color: rgba(168,33,128,1);
+    color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.house_treat_tow .div_content_tow span {
+    font-size: 35px;
+    padding: 20px;
+}
+
+.house_treat_tow .div_content_three {
+    background-color: #672e87;
+    color: #FFF;
+    min-height: 200px;
+}
+
+.house_treat_tow .div_content_three p {
+    background-color: #8a55a8;
+    color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.house_treat_tow .div_content_three span {
+    font-size: 35px;
+    padding: 20px; 
+}
+
+/* end services price */
+
+/*** end services price page ***/
+
+
+/* start footer */
+
+.footer {
+    direction: rtl;
+    text-align: center;
+    background-color: #fbf6ff;
+}
+
+.footer .footer_one {
+    direction: rtl;
+    text-align: center;
+    background-color: #fbf6ff;
+}
+
+.footer .footer_one h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #672e87;
+    padding: 10px;
+}
+
+.footer .footer_one ul a {
+    padding-right: 10px;
+}
+
+.footer .footer_tow h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #672e87;
+    padding: 10px;
+}
+
+.footer .footer_tow ul li{
+    text-align: right;
+
+}
+
+.footer .footer_three h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #672e87;
+    padding: 10px;
+}
+
+.footer .footer_three ul li{
+    text-align: right;
+}
+
+.footer .footer_three ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* end footer */
+
+/* start copyright */
+.copyright {
+    min-height: 50px;
+    background-color: #000;
+    text-align: center;
+}
+
+.copyright p {
+   padding-top: 9px;
+   color: #FFF;
+   font-weight: bold;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+/* end copyright */
+
+/**** End overriding bootstrap ****/
